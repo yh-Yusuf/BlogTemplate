@@ -1,0 +1,15 @@
+<h5>Created on : {{n.created_on}}
+</h5>
+<br>
+<br>
+<h3>
+    Title : {{n.title}}
+    <br>
+    <p>
+        Content : {{n.content}}
+    </p>
+</h3>
+<br>
+<br>
+
+<a href="{% url 'delete' n.id %}">Delete </a>
